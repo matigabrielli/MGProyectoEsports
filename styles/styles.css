@@ -1,0 +1,115 @@
+.grid {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "nav"
+    "button"
+    "sponsors"
+    "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
+    row-gap: 1px;
+    height: 100vh;
+    background-image: url(https://res.cloudinary.com/dmpuypf1q/image/upload/v1661181745/1920x1080-7_yrpzg4.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: rajdhani;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    width: 1000px;
+    justify-content: space-evenly;
+}
+
+header ul a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav {
+    grid-area: nav;
+}
+
+section {
+    grid-area: button;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.button {
+    margin-top: 200px;
+    background-color: rgba(255, 94, 0, 0.979);
+    color: black;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 100px 10px 100px;
+}
+
+.button a {
+    color: black;
+    text-decoration: none;
+}
+
+article {
+    grid-area: sponsors;
+}
+
+.sponsors {
+    padding-top: 180px;
+    padding-left: 600px;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.footer__links li {
+    padding-left: 30px;
+    list-style: none;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .grid {
+        grid-template-areas:
+        "header"
+        "nav"
+        "button"
+        "sponsors"
+        "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        row-gap: 0px;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:1200px) {
+    .grid {
+        grid-template-areas:
+        "header header"
+        "nav nav"
+        "button button"
+        "sponsors sponsors"
+        "footer footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        row-gap: 0px;
+        height: 100vh;
+    }
+}
