@@ -1,117 +1,89 @@
-.grid {
-    display: grid;
-    grid-template-areas:
-    "header"
-    "nav"
-    "button"
-    "sponsors"
-    "footer";
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
-    row-gap: 1px;
-    height: 100vh;
+.bg-image {
+    font-family: rajdhani;
+    font-weight: bolder;
     background-image: url(https://res.cloudinary.com/dmpuypf1q/image/upload/v1661181745/1920x1080-7_yrpzg4.png);
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-header {
-    grid-area: header;
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.boton-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.boton-main button a {
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 35px;
+    font-style: italic;
+    font-weight:bold;
+}
+
+.btn-primary {
+    align-items: center;
+    background-color: rgb(255, 139, 31) !important;
+    border: none !important;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+}
+
+.articleNos {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    font-family: rajdhani;
-    background-image: linear-gradient(to right, black, rgb(255, 123, 0));
-}
-
-header ul {
-    display: flex;
-    list-style-type: none;
-    width: 1000px;
-    justify-content: space-evenly;
-}
-
-header ul a {
+    margin-top: 100px;
     color: white;
-    font-size: 24px;
-    text-decoration: none;
 }
 
-nav {
-    grid-area: nav;
+.rosterVal {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: black;
 }
 
-section {
-    grid-area: button;
-    display: inline-flex;
+.contact {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.media1,
+.media2 {
+    display: flex;
     justify-content: center;
 }
 
-.button {
-    margin-top: 200px;
-    background-color: rgba(255, 94, 0, 0.979);
-    color: black;
-    border: 0;
-    cursor: pointer;
-    text-align: center;
-    font-size: 30px;
-    padding: 10px 120px 10px 120px; 
-    transform: rotate(45deg);
+.carousel-desktop {
+    width: 900px;
 }
 
-.button a {
-    color: black;
-    text-decoration: none;
-}
-
-article {
-    grid-area: sponsors;
-}
-
-.sponsors {
-    padding-top: 180px;
-    padding-left: 500px;
-}
-
-footer {
-    grid-area: footer;
+.carousel-mobile {
+    width: 400px;
 }
 
 .footer__links li {
+    display: inline-block;
     padding-left: 30px;
     list-style: none;
-    display: inline-block;
     margin-top: 50px;
-}
-
-@media screen and (max-width: 480px) {
-    .grid {
-        grid-template-areas:
-        "header"
-        "nav"
-        "button"
-        "sponsors"
-        "footer";
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
-        row-gap: 0px;
-        height: 100vh;
-    }
-}
-
-@media screen and (min-width: 481px) and (max-width:1200px) {
-    .grid {
-        grid-template-areas:
-        "header header"
-        "nav nav"
-        "button button"
-        "sponsors sponsors"
-        "footer footer";
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
-        row-gap: 0px;
-        height: 100vh;
-    }
 }

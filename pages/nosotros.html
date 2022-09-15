@@ -9,46 +9,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Tilteados Gaming</title>
 </head>
-<body class="grilla">
-    <header class="headerNos">
-        <a href="../index.html"><img src="../images/foto3.png" alt="Logo de Tilteados" width="90px" height="90px"></a>
-        <nav class="navNos">
-          <ul class="nav__list">
-            <li>
-              <a href="../index.html">Inicio</a>
-            </li>
-            <li>
-              <a href="./nosotros.html">Nosotros</a>
-            </li>
-            <li>
-              <a href="../pages/equipos.html">Equipos</a>
-            </li>
-            <li>
-              <a href="../pages/noticias.html">Noticias</a>
-            </li>
-            <li>
-              <a href="../pages/media.html">Media</a>
-            </li>
-            <li>
-              <a href="../pages/store.html">Store</a>
-            </li>
-            <li>
-              <a href="../pages/contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-  <article class="articleNos">
-    <h1 class="nosotrosHeader">Nosotros</h1>
+<body class="bg-image">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../images/foto3.png" alt="Logo de Tilteados" width="90px" height="90px"></img></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Equipos</a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="./valorant.html">Valorant</a></li>
+              <li><a class="dropdown-item" href="./lol.html">League of Legends</a></li>
+              <li><a class="dropdown-item" href="./fifa.html">FIFA</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./noticias.html">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./media.html">Media</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <h1 class="fs-1 fw-bold">Nosotros</h1>
+  <article class="container text-center articleNos">
     <section class="nosotrosDesc">
       <p>Desde 2019 comenzamos una nueva apuesta en el mundo de los esports con Tilteados Gaming, organización fundada por Manuel Dacunda con el objetivo de traer su experiencia en el mundo del deporte tradicional profesional al universo de los deportes electrónicos y nuevos medios digitales.</p>
       <p>Con Tilteados aspiramos a formar una familia de trabajo apasionada por los videojuegos, no solo con nuestros jugadores y creadores de contenidos, sino con todo el staff y la comunidad que construiremos.</p>
       <p>Nos sumamos a la escena de los esports con nuestra impronta. No sólo desde lo profesional, deportivo y comercial sino también en desestigmatizar la visión socio-cultural que se suele tener en relación a los videojuegos.</p>
       <p>Con una sociedad constituida en Argentina y otra en Chile, Tilteados busca ser un puente entre las distintas regiones motivando a no tener techo en cuanto a las metas que cada uno se proponga.</p>
-      <p class="suru"><b>Manuel "Suru" Dacunda, CEO de Tilteados Gaming.</b></p>
+      <p><b>Manuel "Suru" Dacunda, CEO de Tilteados Gaming.</b></p>
     </section>
   </article>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

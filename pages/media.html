@@ -9,59 +9,97 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Tilteados Gaming</title>
 </head>
-<body class="siteBg">
-    <header class="header">
-      <a href="../index.html"><img src="../images/foto3.png" alt="Logo de Tilteados" width="90px" height="90px"></a>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li>
-              <a href="../index.html">Inicio</a>
+<body class="bg-image">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../images/foto3.png" alt="Logo de Tilteados" width="90px" height="90px"></img></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
           </li>
-          <li>
-              <a href="../pages/nosotros.html">Nosotros</a>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
           </li>
-          <li>
-              <a href="../pages/equipos.html">Equipos</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Equipos</a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="./valorant.html">Valorant</a></li>
+              <li><a class="dropdown-item" href="./lol.html">League of Legends</a></li>
+              <li><a class="dropdown-item" href="./fifa.html">FIFA</a></li>
+            </ul>
           </li>
-          <li>
-              <a href="../pages/noticias.html">Noticias</a>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./noticias.html">Noticias</a>
           </li>
-          <li>
-              <a href="./media.html">Media</a>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./media.html">Media</a>
           </li>
-          <li>
-              <a href="../pages/store.html">Store</a>
-          </li>
-          <li>
-              <a href="../pages/contacto.html">Contacto</a>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
           </li>
         </ul>
-      </nav>
-    </header>
-  <main class="mainMedia">
-    <h1>Wallpapers</h1>
-    <h2>Escritorio - 1920x1080</h2>
-    <div class="mediaImg">
-      <img src="../images/wallpaper/1920x1080-2.png" alt="" width="640" height="350">
+      </div>
     </div>
-    <div class="mediaImg">
-      <img src="../images/wallpaper/1920x1080-3.png" alt="" width="640" height="350">
+  </nav>
+  <h1 class="fs-1 fw-bold">Wallpapers</h1>
+  <h2>Escritorio - 1920x1080</h2>
+  <section class="media1">
+    <div id="carouselExampleControls" class="carousel slide carousel-desktop" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../images/wallpaper/1920x1080-2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/wallpaper/1920x1080-3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/wallpaper/1920x1080-5.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
     </div>
-    <div class="mediaImg">
-      <img src="../images/wallpaper/1920x1080-5.png" alt="" width="640" height="350">
+  </section>
+  <h2>Mobile - 1080x1920</h2>
+  <section class="media2">
+    <div id="carouselExampleControls" class="carousel slide carousel-mobile" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../images/wallpaper/1080x1920-1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/wallpaper/1080x1920-2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/wallpaper/1080x1920-3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
     </div>
-    <h2>Celular - 1080x1920</h2>
-    <div class="mediaImg">
-      <img src="../images/wallpaper/1080x1920-1.png" alt="" width="350" height="640">
-    </div>
-    <div class="mediaImg">
-      <img src="../images/wallpaper/1080x1920-2.png" alt="" width="350" height="640">
-    </div>
-    <div class="mediaImg">
-      <img src="../images/wallpaper/1080x1920-3.png" alt="" width="350" height="640">
-    </div>
-  </main>
+  </section>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

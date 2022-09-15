@@ -9,41 +9,79 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Tilteados Gaming</title>
 </head>
-<body class="siteBg">
-    <header class="header">
-        <a href="../index.html"><img src="../images/foto3.png" alt="Logo de Tilteados" width="90px" height="90px"></a>
-        <nav class="nav">
-          <ul class="nav__list">
-            <li>
-              <a href="../index.html">Inicio</a>
-            </li>
-            <li>
-              <a href="../pages/nosotros.html">Nosotros</a>
-            </li>
-            <li>
-              <a href="../pages/equipos.html">Equipos</a>
-            </li>
-            <li>
-              <a href="./noticias.html">Noticias</a>
-            </li>
-            <li>
-              <a href="../pages/media.html">Media</a>
-            </li>
-            <li>
-              <a href="../pages/store.html">Store</a>
-            </li>
-            <li>
-              <a href="../pages/contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-  <main class="mainNoticias">
-    <h1>Novedades</h1>
-    <h2>Presentación del roster de Valorant 2022!</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/X5c_qjAblhA" title="Presentación de VALORANT - Roster 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </main>
+<body class="bg-image">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../images/foto3.png" alt="Logo de Tilteados" width="90px" height="90px"></img></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Equipos</a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="./valorant.html">Valorant</a></li>
+              <li><a class="dropdown-item" href="./lol.html">League of Legends</a></li>
+              <li><a class="dropdown-item" href="./fifa.html">FIFA</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./noticias.html">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./media.html">Media</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <h1 class="fs-1 fw-bold">Noticias</h1>
+  <section class="row noticias">
+    <section class="col-sm-12 col-md-8 col-lg-4">
+      <div class="card">
+        <img src="https://cdn1.dotesports.com/wp-content/uploads/2021/06/16121158/OG-valorant.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Presentación roster Valorant 2022/23</h5>
+          <p class="card-text">Mirá nuestro video de presentación de nuestro nuevo equipo!</p>
+          <a href="https://www.youtube.com/embed/X5c_qjAblhA" class="btn btn-primary">Ir a YouTube</a>
+        </div>
+      </div>
+    </section>
+    <section class="col-sm-12 col-md-8 col-lg-4">
+      <div class="card">
+        <img src="https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/5CKDOKIYKNHLXKKFIABW3WRASY.jpg" height="360px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Anuncio importante</h5>
+          <p class="card-text">We're back.</p>
+        </div>
+      </div>
+    </section>
+    <section class="col-sm-12 col-md-8 col-lg-4">
+      <div class="card">
+        <img src="https://e.rpp-noticias.io/normal/2019/07/30/040904_822558.jpg" height="335px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Competiremos en la LEC</h5>
+          <p class="card-text">Después del torneo clasificatorio, logramos quedarnos con el 3er puesto y entrar en la liga.</p>
+        </div>
+      </div>
+    </section>
+  </section>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>  
 </body>
 </html>
