@@ -1,0 +1,66 @@
+@import "./partials/colores";
+@import "./partials/transitions";
+@import "./partials/header";
+@import "./partials/botonmain";
+@import "./partials/footer";
+
+.bg-image {
+    font-family: rajdhani;
+    font-weight: bolder;
+    background-image: url(https://res.cloudinary.com/dmpuypf1q/image/upload/v1661181745/1920x1080-7_yrpzg4.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: $colorTitle;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: $colorTitle;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+}
+
+.articleNos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    color: $colorTitle;
+}
+
+.rosterTeams {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+  
+.contact {
+    display: flex;
+    justify-content: center;
+    color: $colorTitle;
+}
+  
+.media1,
+.media2 {
+    display: flex;
+    justify-content: center;
+}
+  
+.carousel-desktop {
+    width: 900px;
+}
+  
+ .carousel-mobile {
+    width: 400px;
+}
