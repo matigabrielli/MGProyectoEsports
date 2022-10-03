@@ -1,9 +1,9 @@
 header {
     li {
         a {
-            transition: $transitionNavbar;
+            transition: $transitionNavbar !important;
             &:hover {
-                color: $colorHoverNavbar;
+                color: $colorHoverNavbar !important;
             }
         }
     }

@@ -1,6 +1,11 @@
-.footer__links li {
-    display: inline-block;
-    padding-left: 30px;
-    list-style: none;
-    margin-top: 50px;
+.footerTwitter {
+    @extend %footerImage;
+}
+
+.footerInsta {
+    @extend %footerImage;
+}
+
+.footerDiscord {
+    @extend %footerImage;
 }
