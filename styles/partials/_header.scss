@@ -1,0 +1,10 @@
+header {
+    li {
+        a {
+            transition: $transitionNavbar !important;
+            &:hover {
+                color: $colorHoverNavbar !important;
+            }
+        }
+    }
+}

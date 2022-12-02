@@ -1,0 +1,191 @@
+.bg-index {
+  font-family: rajdhani;
+  font-weight: bolder;
+  background-image: url(../images/background/cubos.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.bg-contacto {
+  font-family: rajdhani;
+  font-weight: bolder;
+  background-image: url(../images/background/bg-contacto-2.png);
+  background-repeat: no-repeat;
+  background-size: 1200px 970px;
+  background-color: black;
+}
+
+.bg-nosotros {
+  font-family: rajdhani;
+  font-weight: bolder;
+  background-image: url(../images/background/bg-somos.png);
+  background-repeat: no-repeat;
+  background-size: 820px 970px;
+  background-color: black;
+}
+
+.bg-roster {
+  font-family: rajdhani;
+  font-weight: bolder;
+  background-image: url(../images/background/backgroundindex.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-valorant {
+  font-family: rajdhani;
+  font-weight: bolder;
+  background-image: url(../images/background/bg-valorant.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-fifa23 {
+  font-family: rajdhani;
+  font-weight: bolder;
+  background-image: url(../images/background/bg-fifa23.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-lol {
+  font-family: rajdhani;
+  font-weight: bolder;
+  background-image: url(../images/background/bg-lol.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-media {
+  font-family: rajdhani;
+  font-weight: bolder;
+  background-image: url(../images/background/2532192.webp);
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg-news {
+  font-family: rajdhani;
+  font-weight: bolder;
+  background-image: url(../images/background/973643.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image {
+  font-family: rajdhani;
+  font-weight: bolder;
+  background-image: url(../images/background/wallhaven-nr2qpm.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logoIndex {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 350px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.footerDiscord, .footerInsta, .footerTwitter {
+  display: inline-flex;
+  padding-left: 30px;
+  list-style: none;
+}
+
+header li a {
+  transition: all 0.5s ease !important;
+}
+header li a:hover {
+  color: #fe5500 !important;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+.h-color {
+  color: black;
+}
+
+.hNews {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hTeams {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 60px;
+}
+
+.articleNos {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+.articleNos p {
+  margin-top: 50px;
+}
+
+.mediaText {
+  color: black;
+}
+
+.card-custom {
+  box-shadow: 6px -6px 4px 1px #000000;
+  margin-left: 70px;
+  width: 400px;
+}
+
+.rosterTeams {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.carousel-desktop {
+  box-shadow: 6px -6px 6px 6px #1f1f1f;
+  width: 900px;
+}
+
+.carousel-mobile {
+  width: 400px;
+}
+
+.media1,
+.media2 {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+.contact .buttonContactoEnviar {
+  padding: 10px;
+  background: #fe5500;
+  color: black;
+  font-weight: bolder;
+  font-size: 24px;
+  width: 50%;
+  margin-left: 25%;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,14 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    .buttonContactoEnviar {
+        padding: 10px;
+        background: $colorHoverNavbar;
+        color: $colorTextInput;
+        font-weight: bolder;
+        font-size: 24px;
+        width: 50%;
+        margin-left: 25%;
+    }
+}
